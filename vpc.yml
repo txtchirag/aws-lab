@@ -194,3 +194,15 @@ Outputs:
 
   PrivateSubnetAId:
     Description: "Private Subnet A ID"
+    Value:
+      Ref: "PrivateSubnetA"
+
+  PrivateSubnetCId:
+    Description: "Private Subnet C ID"
+    Value:
+      Ref: "PrivateSubnetC"
+
+  NATGatewayId:
+    Description: "NAT Gateway ID"
+    Value:
+      Ref: "NATGateway"
